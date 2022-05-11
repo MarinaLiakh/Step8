@@ -1,0 +1,183 @@
+/* @import url("reset.css");  4 - сбособ подключения стилей*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: rgb(151, 151, 160); 
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper{
+    outline: 1px solid black;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.main{
+    text-align: center;
+    background-image: url(./img/background.png);
+}
+
+ .header{
+    margin-top: 15px; 
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+color:black;
+background-color:rgb(100, 229, 115);
+background-image: url("./img/klon.png");
+background-repeat:repeat;
+font-weight: bold;
+text-align: center;
+height: 260px;
+width: 40px;
+margin: 0px;
+padding: 5px;
+writing-mode: vertical-rl; 
+transform: rotate(180deg);
+}
+
+.element{
+    float: left;
+background-color:rgb(100, 229, 115); 
+color:black;
+width: 760px; 
+height: 260px;
+margin: 0px;
+padding: 5px 5px;
+}
+
+.text, .element1, .element2, .element3, .element4, .element5{
+   font-size: 14px;
+   padding:5px 5px;
+}
+.text p:nth-child(2n+1){
+   text-align: left;
+}
+.text p:nth-child(2n){
+   text-align: right;
+}
+
+.element1{
+background-color:rgb(100, 229, 115);
+padding: 5px 5px;
+}
+.left1{
+float:right;
+padding:10px 10px 10px 10px;
+}
+
+.element2{
+background-color:rgb(224, 187, 22);
+padding: 5px 5px;
+}
+.left2{
+float:left;
+padding:10px 10px 10px 10px;
+}
+
+.element3{
+background-color:rgb(100, 229, 115);
+padding: 5px 5px;  
+}
+.left3{
+float:right;
+padding:10px 10px 10px 10px;
+}
+
+.element4{
+background-color:rgb(224, 187, 22); 
+padding: 5px 5px;
+}
+.left4{
+float:left;
+padding:10px 10px 10px 10px;
+}
+
+.element5{
+background-color:rgb(100, 229, 115);
+padding: 5px 5px;   
+}  
+.left5{
+float:right;
+padding:10px 10px 10px 10px;
+}
+img{
+    border-radius: 100px;
+}
+
+.footer{
+   height:70px;
+   background-image: url("./img/karta1.jpg"); 
+   padding:20px;
+   text-align: center;
+   font-size: 18px;
+}
+
+.frame2 ul li{
+display: inline-block;
+margin: 20px;
+}
+.frame2 ul li a{
+background-color: greenyellow;
+padding: 5px 20px;
+border-radius: 100px;
+text-decoration: none;
+font-weight: none;
+color:#000;
+opacity: 0.5; 
+transition: all 0.4s;
+}
+.frame2 a:hover, .frame2 a.active{
+border-radius: 20px 0 20px 0;
+color: red;
+background-color:#fff;
+opacity: 1; 
+}
+   
+.frame3{
+ height: 60px;
+}
+.frame3 ul li{
+display: inline-block;
+margin: 20px ;
+}
+.frame3 ul li a{
+background-color:whitesmoke;
+padding: 5px 10px;
+border-radius: 100px;
+text-decoration: none;
+font-weight: none;
+color:#000;
+opacity: 0.5; 
+transition: all 0.4s;
+}
+.frame3 a:hover, .frame2 a.active{
+border-radius: 20px 0 20px 0;
+color: white;
+background-color: rgb(100, 229, 115);
+opacity: 1; 
+}
+
+.clearfix:after{
+content:"";
+display: block;
+clear: left;
+}
+
